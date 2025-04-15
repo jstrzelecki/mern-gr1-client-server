@@ -1,0 +1,26 @@
+### GET request to example server
+GET http://localhost:5000/
+
+###
+### GET tasks
+GET http://localhost:5000/tasks 
+Content-Type: application/json
+
+###
+### POST tasks
+POST http://localhost:5000/tasks 
+Content-Type: application/json
+
+{
+  "title": "oś tam",
+  "description": "Opierniczyć uczniów"
+}
+
+###
+### PUT 67f4f202b693fb09d0bcf7c5
+PUT http://localhost:5000/tasks/67f4f202b693fb09d0bcf7c5
+Content-Type: application/json
+
+{
+  "title": "ZAKTUALIZOWAŁEM TYTUŁ"
+}
