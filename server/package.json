@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node dist/bin/www",
-    "dev": "../node_modules/.bin/ts-node src/bin/www.ts",
-    "build": "../node_modules/.bin/tsc"
+    "dev": "ts-node src/bin/www.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -22,9 +22,9 @@
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.1",
     "@types/mongoose": "^5.11.96",
-    "@types/node": "^22.13.15",
+    "@types/node": "^22.14.1",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   }
 }
